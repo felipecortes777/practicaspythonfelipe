@@ -1,0 +1,13 @@
+#El primer paso es establecer las variables
+nombre = input ("Introduce tu nombre: ")
+apellido = input ("Introduce tu apellido: ")
+edad = input ("Introduce tu edad: ")
+correo = input("Introduce tu correo: ")
+telefono = input("Introduce tu teléfono: ")
+
+#El segundo paso es imprimir las variables para que en la terminal se pueda poner la información solicitada: edad, nombre, apellido
+print("Nombre: " + nombre)
+print("Apellido: " + apellido)
+print("Tengo: " + str(edad) + "años")
+print("Correo: " + correo)
+print("Teléfono: " + telefono)
